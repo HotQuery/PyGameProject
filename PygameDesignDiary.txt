@@ -1,0 +1,23 @@
+Design Diary(Imported from written notes from the last couple weeks)
+
+4/1: After my weekly meeting and discussion, I spent time looking at different types
+of game design that could be implemented simply using PyGame. I watched lots of videos
+that used PyGame to do things like create a space-invaders type simulation, platformers
+and even basic RPG's. I considered the idea of creating an inventory system, something 
+I'd still like to take on at some point. I decided that doing some sort of a side scrolling
+platformer would be a cool mechanic to approach. I downloaded pygame and spent some time
+troubleshooting getting the library to load within the IDLE shell of python. 
+
+4/7: Work was done on getting PyGame running, something that ended up taking more time 
+than expected due to some installation problems with directory paths. Some good learning
+though through it. Started implementing some code after researching some videos with 2D
+PyGame examples.
+
+4/9: Managed to get a little Pygame platformer going. Includes a basic character represented
+by an image stored within a Renders folder. Using key-button "events" the character could
+be moved across the screen using the left and right keys. Pretty cool. This required 
+the setting of position of the character within the scene, and the movement of 
+that character when a button is pushed. Intriguing to set the frame rate of a game. 
+Finally even added a "bouncy" physics to the character, who now sort of jumps around
+as you move him. There's a block he can run into, utilizing a simple object-interaction 
+code that changes the color of the block when the character touches it. 
